@@ -35,7 +35,7 @@ class SplashScreen extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Image.asset(
-                  'assets/images/logo.png',
+                  Appconst.logoPath,
                 ),
                 const SizedBox(
                   height: 15,

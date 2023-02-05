@@ -33,14 +33,9 @@ dependencies:
   flutter:
     sdk: flutter
   go_router: ^6.0.3
+  smooth_page_indicator: ^1.0.0+2
 
 dev_dependencies:
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
@@ -72,8 +67,8 @@ flutter:
     - family: lato
       fonts:
         - asset: assets/fonts/Lato-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
     - family: montserrat
       fonts:
         - asset: assets/fonts/Montserrat-Regular.ttf
